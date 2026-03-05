@@ -1,3 +1,11 @@
-print("Hello, there. I'm Ashley and I'm coding with Python. This is my first line of code with this new language. Wish me luck!")
-name = input("What is your name? ")
-print("Nice to meet you, " + name + "!")
+
+import time
+
+print("Counting down to launch...")
+
+# This is a loop. It says 'for every number from 5 down to 1...'
+for i in range(5, 0, -1):
+    print(i)
+    time.sleep(1) # This makes Python wait for 1 second
+
+print("🚀 BLAST OFF, ASHLEY!")
