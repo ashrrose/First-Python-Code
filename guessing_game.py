@@ -10,12 +10,12 @@ for attempt in range(3):
     guess = int(input("Take a guess: ")) # 'int' turns your text into a number
 
     if guess == secret_number:
-        print("YOU GOT IT! 🏆 You're a natural, Ashley!")
+        print("YOU GOT IT! 🏆 You're a natural! ")
         break # This stops the loop early because you won!
     elif guess < secret_number:
-        print("Too low! Try again.")
+        print("Nope! Too low! Try again.")
     else:
-        print("Too high! Try again.")
+        print("Too ambitious. Too high! Try again.")
 
 # 3. If the loop finishes and you didn't 'break' out of it...
 else:
